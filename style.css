@@ -1,0 +1,18 @@
+div {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-content: center;
+}
+ 
+@keyframes circle {
+  0%   { fill:red; stroke: black;}
+  25% { fill:yellow; stroke: blue;}
+  100% { fill:green; stroke: orange; }
+}
+
+circle {
+  position: absolute;
+  animation: circle 3s infinite;
+}
